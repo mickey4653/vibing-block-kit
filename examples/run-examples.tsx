@@ -9,6 +9,7 @@ import FormExample from './basic/form';
 import ResponsiveExample from './basic/responsive';
 import App from './basic/app';
 import ThemeExample from './advanced/theme-example';
+import FeatureCardsExample from './feature-cards/FeatureCardsExample';
 
 // Define example components with metadata
 const examples = [
@@ -18,6 +19,7 @@ const examples = [
   { id: 'responsive', name: 'Responsive Example', component: ResponsiveExample },
   { id: 'app', name: 'App with Theme Toggle', component: App },
   { id: 'theme-example', name: 'Advanced Theme Example', component: ThemeExample },
+  { id: 'feature-cards', name: 'Feature Cards', component: FeatureCardsExample },
 ];
 
 function ExampleRunner() {
